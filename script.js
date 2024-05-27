@@ -1,4 +1,4 @@
-const caixaPrincipal = document.querySelector(".caixa-principal");
+t caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
@@ -6,8 +6,8 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Dancer, visual, face, center, voval, líder, rapper ou maknae? Responda as perguntas do quiz abaixo, para saber qual posição vocẽ seria se estivesse debundando em grupo de k-pop! E não se esqueça de compartilhar e comentar qual foi a sua posição. P.S.: as fotos do resultado são apenas para ilustrar."Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
-        alternativas: [
+        enunciado: "Dancer, visual, face, center, voval, líder, rapper ou maknae? Responda as perguntas do quiz abaixo, para saber qual posição vocẽ seria se estivesse debundando em grupo de k-pop! E não se esqueça de compartilhar e comentar qual foi a sua posição. P.S.: as fotos do resultado são apenas para ilustrar."
+          [
             {
                 texto: "Isso é assustador!",
                 afirmacao: "afirmação"
@@ -62,7 +62,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",A
-                afirmacao: "afirmação"
+            : "afirmação"
             },
             {
                 texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
